@@ -1,0 +1,106 @@
+.login_title {
+    position: absolute;
+    top: 170px;
+    left: 50px;
+}
+
+.container_login {
+    position: relative;
+    width: 80%;
+    min-height: calc(100vh - 114px);
+    padding: 20px 0;
+    margin: 0 auto;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .login_form {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .label {
+        font-size: 30px;
+        font-weight: bold;
+        user-select: none;
+    }
+
+
+    .input {
+        position: relative;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        padding: 15px 10px;
+        margin: 20px 0;
+        font-size: 22px;
+        color: white;
+        user-select: none;
+        border-radius: 0;
+        box-shadow: 0px 2px 0 0px #515151;
+        transition: box-shadow .3s ease, background-color .2s ease;
+
+        &:focus {
+            box-shadow: 0px 0px 0 2px #515151;
+            background-color: #1b1b1b;
+            border-radius: 3px;
+
+            &::placeholder {
+                color: transparent;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            & {
+                width: 100%;
+            }
+        }
+    }
+
+
+    .errorMessage {
+        text-align: center;
+        color: red;
+        padding: 10px 0;
+        margin: 5px 0;
+    }
+
+    .button_login {
+        border-radius: 3px;
+        border: none;
+        outline: none;
+        padding: 15px 30px;
+        font-size: 20px;
+        background-color: #e39e6d;
+        color: white;
+        cursor: pointer;
+        margin: 10px 0;
+        transition: background-color .2s ease, box-shadow .4s ease;
+
+        &.deconnect {
+            background-color: #de6262;
+        }
+
+        &:hover {
+            background-color: transparent;
+            box-shadow: 0 0 0 2px #e39e6d;
+
+            &.deconnect {
+                box-shadow: 0 0 0 2px #de6262;
+            }
+        }
+
+    }
+
+    .already_title {
+        font-size: 30px;
+        margin: 10px 0;
+        font-weight: bold;
+    }
+}

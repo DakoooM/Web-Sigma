@@ -1,0 +1,124 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #1c1c1c;
+    padding: 40px 20px;
+    
+    @mixin flex($direction) {
+        display: flex;
+        flex-direction: $direction;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .iframeDiscord {
+        user-select: none;
+        margin: 30px 0;
+
+        @media screen and (max-width: 500px) {
+            & iframe {
+                width: 100%;
+            }
+        }
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+
+        .link_footer {
+            border-radius: 3px;
+            padding: 10px 10px 5px;
+            text-align: center;
+            margin: 0 5px;
+            font-size: 25px;
+            color: white;
+            transition: box-shadow .3s ease;
+
+            &:hover {
+                box-shadow: 1px 2px 4px 0px #00000091;
+            }
+
+            &.discord {
+                background-color: #7289DA;
+
+                &:hover {
+                    background-color: #6a7ec6;
+                }
+            }
+
+            &.youtube {
+                background-color: #FF0000;
+
+                &:hover {
+                    background-color: #ad2020;
+                }
+            }
+
+            &.twitter {
+                background-color: #1D9BF0;
+
+                &:hover {
+                    background-color: #2a8fd3;
+                }
+            }
+        }
+    }
+
+    .cat {
+        font-weight: bold;
+        font-size: 20px;
+        margin: 7px 0;
+        user-select: none;
+    }
+
+    .dakomcp {
+        font-size: 15px;
+
+        .github-link {
+            color: #7b7b7b;
+            text-decoration: none;
+            user-select: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .copyright {
+        position: relative;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sigmacp {
+        font-weight: bold;
+        user-select: none;
+        margin: 10px 0 0 0;
+    }
+
+    .content {
+        @include flex(column);
+
+        .link_nav {
+            color: #a1a1a1;
+            text-decoration: none;
+            margin: 2px 0;
+
+            &:hover {
+                text-decoration: underline
+            }
+        }
+    }
+
+    .content_2 {
+        @include flex(column);
+    }
+}

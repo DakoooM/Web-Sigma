@@ -1,0 +1,114 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #1c1c1c;
+  padding: 40px 20px;
+}
+.footer .iframeDiscord {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin: 30px 0;
+}
+@media screen and (max-width: 500px) {
+  .footer .iframeDiscord iframe {
+    width: 100%;
+  }
+}
+.footer .socials {
+  display: flex;
+  flex-direction: row;
+}
+.footer .socials .link_footer {
+  border-radius: 3px;
+  padding: 10px 10px 5px;
+  text-align: center;
+  margin: 0 5px;
+  font-size: 25px;
+  color: white;
+  transition: box-shadow 0.3s ease;
+}
+.footer .socials .link_footer:hover {
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.568627451);
+}
+.footer .socials .link_footer.discord {
+  background-color: #7289DA;
+}
+.footer .socials .link_footer.discord:hover {
+  background-color: #6a7ec6;
+}
+.footer .socials .link_footer.youtube {
+  background-color: #FF0000;
+}
+.footer .socials .link_footer.youtube:hover {
+  background-color: #ad2020;
+}
+.footer .socials .link_footer.twitter {
+  background-color: #1D9BF0;
+}
+.footer .socials .link_footer.twitter:hover {
+  background-color: #2a8fd3;
+}
+.footer .cat {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 7px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.footer .dakomcp {
+  font-size: 15px;
+}
+.footer .dakomcp .github-link {
+  color: #7b7b7b;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.footer .dakomcp .github-link:hover {
+  text-decoration: underline;
+}
+.footer .copyright {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .sigmacp {
+  font-weight: bold;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin: 10px 0 0 0;
+}
+.footer .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer .content .link_nav {
+  color: #a1a1a1;
+  text-decoration: none;
+  margin: 2px 0;
+}
+.footer .content .link_nav:hover {
+  text-decoration: underline;
+}
+.footer .content_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=Footer.css.map */

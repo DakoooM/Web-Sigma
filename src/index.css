@@ -1,0 +1,47 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #252627;
+  color: white;
+}
+
+.minHeight {
+  position: relative;
+  min-height: calc(100vh - 341px);
+}
+
+::selection {
+  color: #1c1b1a;
+  background: #d59561ae;
+}
+
+::-moz-selection {
+  color: #1c1b1a;
+  background: #d59561ae;
+}
+
+.link {
+  position: relative;
+  color: #e39e6d;
+  text-decoration: none;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: currentColor;
+  width: 0;
+  height: 2px;
+  transition: width .3s ease;
+}
+
+.link:hover::after, .link:focus::after {
+  width: 100%;
+}

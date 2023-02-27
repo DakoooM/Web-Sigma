@@ -1,0 +1,28 @@
+.button {
+  position: relative;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3411764706);
+  background-color: #e39e6d;
+  transition: transform 0.2s ease;
+}
+.button:hover {
+  background-color: #c89068;
+}
+.button.small {
+  font-size: 15px;
+  font-weight: bold;
+}
+.button.big {
+  font-size: 20px;
+}
+.button:hover {
+  filter: brightness(90%);
+}/*# sourceMappingURL=Button.css.map */

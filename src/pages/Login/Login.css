@@ -1,0 +1,103 @@
+.login_title {
+  position: absolute;
+  top: 170px;
+  left: 50px;
+}
+
+.container_login {
+  position: relative;
+  width: 80%;
+  min-height: calc(100vh - 114px);
+  padding: 20px 0;
+  margin: 0 auto;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container_login .login_form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.container_login .label {
+  font-size: 30px;
+  font-weight: bold;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.container_login .input {
+  position: relative;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 15px 10px;
+  margin: 20px 0;
+  font-size: 22px;
+  color: white;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border-radius: 0;
+  box-shadow: 0px 2px 0 0px #515151;
+  transition: box-shadow 0.3s ease, background-color 0.2s ease;
+}
+.container_login .input:focus {
+  box-shadow: 0px 0px 0 2px #515151;
+  background-color: #1b1b1b;
+  border-radius: 3px;
+}
+.container_login .input:focus::-moz-placeholder {
+  color: transparent;
+}
+.container_login .input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.container_login .input:focus::placeholder {
+  color: transparent;
+}
+@media screen and (max-width: 768px) {
+  .container_login .input {
+    width: 100%;
+  }
+}
+.container_login .errorMessage {
+  text-align: center;
+  color: red;
+  padding: 10px 0;
+  margin: 5px 0;
+}
+.container_login .button_login {
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #e39e6d;
+  color: white;
+  cursor: pointer;
+  margin: 10px 0;
+  transition: background-color 0.2s ease, box-shadow 0.4s ease;
+}
+.container_login .button_login.deconnect {
+  background-color: #de6262;
+}
+.container_login .button_login:hover {
+  background-color: transparent;
+  box-shadow: 0 0 0 2px #e39e6d;
+}
+.container_login .button_login:hover.deconnect {
+  box-shadow: 0 0 0 2px #de6262;
+}
+.container_login .already_title {
+  font-size: 30px;
+  margin: 10px 0;
+  font-weight: bold;
+}/*# sourceMappingURL=Login.css.map */

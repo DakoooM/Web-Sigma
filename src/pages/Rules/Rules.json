@@ -1,0 +1,176 @@
+{
+    "Generals": [
+        {
+            "title": "Powergaming",
+            "name": "Abuser de la physique du jeu pour effectuer des actions irréalisables dans la physique réelle",
+            "example": "Lorsque vous vous prenez un obstacle à grande vitesse, jouez la scène d'accident comme elle se doit."
+        },
+        {
+            "title": "Metagaming",
+            "name": "Utiliser des informations HRP dans un contexte RP est strictement interdit."
+        },
+        {
+            "title": "No Fear RP",
+            "name": "Ne pas jouer le(s) sentiments de la peur ou des menaces.",
+            "example": "Lorsqu’un braqueur vous braque et vous menace, vous devez faire ce qu’il vous demande et non jouer au héro."
+        },
+        {
+            "title": "No Pain RP",
+            "name": "Le Pain-RP va de pair avec le Fear-RP. Il s'agit du fait de jouer la douleur physique"
+        },
+        {
+            "title": "Freekill",
+            "name": "Tuer/mettre coma une personne sans raison RP."
+        },
+        {
+            "title": "Force RP",
+            "name": "Obliger un joueur à effectuer des actions qui n’ont pas lieu d’être alors que d'autres situations sont envisageables."
+        },
+        {
+            "title": "Mass RP",
+            "name": "Considérer le fait que l'on est dans une ville de millions d'habitants, que ce soit dans la rue, dans un quartier, dans un commissariat, hôpital etc ...",
+            "example": "Rentrer dans un quartier, même si il y’a personne est interdit. De même dans un commissariat : il y a toujours des citoyens autour de vous."
+        },
+        {
+            "title": "Retour Zone",
+            "name": "Ce terme désigne le fait de retourner dans des zones de sécurité ou un quartier de gang.",
+            "example": "Pendant une course poursuite, retourner dans son quartier pour se protéger avec le Mass RP."
+        }
+    ],
+
+    "LexiqueRP": [
+        {
+            "title": "Mal de tête",
+            "name": "Crash du joueur.",
+            "example": "J'ai eu un mal de tête"
+        },
+        {
+            "title": "Faire ses lacets",
+            "name": "Joueur qui se téléporte.",
+            "example": "Je dois faire mes lacets"
+        },
+        {
+            "title": "Prendre une pastille",
+            "name": "Problème de micro.",
+            "example": "Je dois prendre une pastille"
+        },
+        {
+            "title": "Être dans ses pensées",
+            "name": " Être AFK.",
+            "example": "Je suis dans mes pensées"
+        },
+        {
+            "title": "Faire une sieste",
+            "name": "Déco/reco.",
+            "example": "Je dois faire une sieste"
+        },
+        {
+            "title": "Mal aux yeux",
+            "name": "Problèmes de FPS",
+            "example": "J'ai mal au yeux"
+        },
+        {
+            "title": "Unitée X",
+            "name": " S’être fais TP à l’hôpital",
+            "example": "J'ai été soigner par l'unité x"
+        },  
+    
+        {
+            "title": "Tempête",
+            "name": "Reboot du serveur.",
+            "example": "Il va y avoir une tempête"
+        },  
+        {
+            "title": "GoPro",
+            "name": "Être en live.",
+            "example": "J'ai une gopro active"
+        }
+    ],
+    "Roleplay": [
+        {
+            "title": "Respect",
+            "name": "Le respect et la politesse sont deux choses primordiales. Cependant, les insultes dites Roleplay sont tolérées jusqu'à une certaine limite",
+            "example": "Racisme, Insultes des parents..."
+        },
+        {
+            "title": "Radio Discord",
+            "name": "L'utilisation de Discord comme Radio RP est interdite. (ou tout autre moyen de communication vocal externe)"
+        },
+        {
+            "title": "Hors Roleplay",
+            "name": "L'utilisation du dialecte HRP en jeu est FORMELLEMENT INTERDIT."
+        },
+        {
+            "title": "Coupure scene",
+            "name": "Dans la mesure où un joueur enfreint une règle lors d'une scène, vous ne devez surtout pas couper la scène en cours. Attendez qu'elle se termine et ensuite parlez-en avec le(s) principal/aux concerné(s) et un modérateur.",
+            "example": "Vous vous prenez une balle en pleine tete et vous pensez que la personne a eu tord, attendez que la scene prene fin si la personne vous ayant tuer n'est pas seul."
+        },
+        {
+            "title": "Zone safe",
+            "name": "Les zones safe sont donc : commissariats, hôpitaux, banques, brinks. Si un joueur est dans une banque, vous n'êtes pas autorisé à le braquer. Certaines zone ne sont pas considérées comme zone safe mais il n’est pas autorisé de faire tout et n’importe quoi dedans. ( ex : parking central, burger shot, mécano, entreprises, etc… )"
+        },
+        {
+            "title": "No Leave",
+            "name": "Quitter une scène RP avant qu'elle ne soit terminée via un ALT+F4 ou tout autre moyen permettant de vous échapper est interdit et passible d'une lourde sanction",
+            "example": "Vous vous faite braquer par des random, rester jusqu'a la fin de la scene et parter par la suite si vous en avez l'envie"
+        },
+        {
+            "title": "No metagaming",
+            "name": "Il est interdit de prétendre connaître quelqu'un de masqué de part son accent, sa voix ou par des déductions basées sur le nombre de joueurs ayant telles ou telles armes/voitures/tenues.",
+            "example": "Quelqu'un vous braque et vous le menacé et lui donnant sont blaze alors qu'il est cagoulée.."
+        },
+        {
+            "title": "Harcelement",
+            "name": "Toutes insultes voire harcèlement abusif et sexiste seront punis. N’oubliez pas que ce sont des vraies personnes derrière le personnage ! Le Staff sera beaucoup plus sévère pour les cas de harcèlement orienté vers les femmes"
+        },
+        {
+            "title": "Permis",
+            "name": "Pour le vol de véhicule, la manière la plus discrète possible est demandée. Vous ne pouvez pas voler un véhicule sur un grand axe au milieu de la route alors que tout le monde vous voit. (Des avertissements pourront être appliqués)."
+        },
+        {
+            "title": "Permis Service Publics",
+            "name": "Pour la LSPD/BCSO/EMS/Brinks, le staff sera beaucoup plus sévère envers votre conduite comparé à un citoyen lambda. Vous êtes la vitrine du serveur, vous ne devez pas griller tous les feux rouge de la ville sans gyrophare et sans être en intervention. Vous devez avoir une conduite exemplaire. (Des avertissements pourront être appliqués)."
+        }
+    ],
+    "hrpRules": [
+        {
+            "title": "Usebug ect..",
+            "name": "Utiliser des bugs (usebug) ou des glitchs trouvés sur le serveur que ce soit pour récolter des ressources plus rapidement, pour dupliquer des items ou tout autre faille est strictement interdit et passible d’un bannissement définitif."
+        },
+        {
+            "title": "Discussion HRP",
+            "name": "Nous avons des discussions HRP dédiées à cela sur Discord. Si vous rencontrez un souci, rendez-vous sur le Discord pour faire un ticket, celui-ci sera ensuite traité dans les plus brefs délais."
+        },
+        {
+            "title": "Demande de Remboursement",
+            "name": "Les demandes de remboursement ou toutes autre demandes importantes doivent se faire auprès du staff avec un ticket et dans le meilleur des cas, avec des preuves, afin que vos demandes soient traitées au plus vite. Les remboursements sont effectué seulement quand il s’agit d’un bug serveur."
+        },
+        {
+            "title": "Véhicules Public",
+            "name": "Il est strictement interdit de voler un véhicule de LSPD/ EMS (sauf lors d'une grosse scène rp et uniquement sur quelques centaines de mètres)."
+        },
+        {
+            "title": "Armes Public",
+            "name": "Il est interdit de voler les armes des LSPD/ EMS même s'ils sont dans le COMA."
+        },
+        {
+            "title": "Braquage Service Public",
+            "name": "Il est interdit de braquer un EMS en service. ( Sauf cas contraire lors d’une grosse scène et avec l’accord du haut Staff (Fondateur, Administrateur) )"
+        }
+    ],
+
+    "demandeSpecs": [
+        {
+            "title": "Qu'est-ce qu'un ticket ?",
+            "name": "La création d'un ticket vous permet de poser n'importe quelle question à tout le staff: Modérateurs, Administrateurs, Développeurs et Fondateurs. La politesse est obligatoire.\nVous avez le droit à « 3 avertissements discord » et après ça, s'en suivra un ban en jeux de 7 jours.<br/>Si vous recommencez et obtenez 3 avertissements, c'est un ban définitif. Les tickets non clos sont toujours en cours de traitement.\nDès que vous ouvrez un ticket, soyez attentif jusqu'à la fermeture de celui-ci."
+        },
+        {
+            "title": "Une scène se passe mal ?",
+            "name": "Si vous faites une scène RP qui n'est pas correcte à votre goût, terminez la scène avant de faire un ticket.\nSi vous écrivez un ticket sur une scène où intervient un staff, le staff en question n'aura aucun droit de vote sur le ticket.\nSi vous avez un enregistrement, n'hésitez pas à l’insérer dans le ticket afin que le staff y voit plus clair."
+        },
+        {
+            "title": "Mort RP, Wipe ou Dé-bannissement ?",
+            "name": "Nous acceptons les demandes de wipe sous réserve d’un vote global entre chacun des membres du staff, cela nous permet de juger si oui ou non, vous pouvez être wipe. Dans le cas où le wipe se verrait refusé, votre personnage InGame n'aura subi aucune modification. Pour effectuer la demande, rendez-vous dans l'onglet demande-spécifique sur discord. Si wipe accepté, vous devrez attendre une période de 3 jours avant de pouvoir rejouer."
+        }
+    ]
+}
